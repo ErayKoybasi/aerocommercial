@@ -1,0 +1,115 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.title{
+  margin-top: 100px;
+  font-size: 80px;
+}
+
+.height{
+  height: 200px;
+}
+
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.box{
+  background-color: #2c313c;
+  height: 400px;
+  width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+#loginPage::placeholder{
+  text-align: center;
+}
+#passwordPage::placeholder{
+  text-align: center;
+}
+
+.eyeClose{
+  position: absolute;
+  display: flex;
+  margin-left: 250px;
+  width: 20px;
+  cursor: pointer;
+}
+
+#canvas{
+  position: relative;
+}
+.titleAero{
+  font-size: 100px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-track{
+  background-color:#2c313c;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: darkgray;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: gray;
+}
+
+.loginPageModal{
+  display: none;
+}
+
+.loginPageAdd{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.boxtoBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c313c;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+
+
+.btn-purchase{
+  text-align: center;
+  margin: auto;
+  padding: 2%;
+  width: 50%;
+}
+
+#shopping-cart{
+  padding: 5% 5%;
+}
+
+.cart-total{
+  text-align: right;
+  font-size: 1.3rem;
+}
+
+.up-icon{
+  color: black;
+  position: fixed;
+  float: right;
+  z-index: 1;
+  left: 95%;
+  top: 85%;
+  font-size: 2rem;
+}
